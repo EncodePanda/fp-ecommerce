@@ -1,6 +1,6 @@
 package fpe
 
-import scalaz._ Scalaz._
+import scalaz._, Scalaz._
 
 sealed trait MonotonicSeq[A]
 case class Next extends MonotonicSeq[Long]
